@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS link -->
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
+   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+   <link rel="stylesheet" type="text/css" href="css/style.css">
+   <link rel="stylesheet" type="text/css" href="css/media.css">
+
+    <title>Hello, world!</title>
+
+
+  </head>
+  <body>
+    <!-- nav start -->
+    <div class="containner-fluid">
+      <nav class="navbar navbar-expand-lg navbar-light bg-danger">
+  <div class="container">
+    <a class="navbar-brand" href="index.html"><img src="img/logo-jquery-ui.png"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#interection">Interactions</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Widgets">Widgets</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Effects">Effects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Utilities">Utilities</a>
+        </li>
+      
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+    </div>
+    <!-- nav end -->
+    <div class="container">
+     <div class="row" id="interection">
+      <h1 class="mt-5 mb-4 text-uppercase text-center text-success">Interactions</h1>
+        <!-- one -->
+      <div class="col-4">
+        <h1 class="mt-5 text-uppercase">1.Draggable</h1>
+        <div id="dragg" class="ui-widget-content mt-3">
+          <p>Drag me around</p>
+        </div>
+      </div>
+      <!-- two -->
+      <div class="col-4">
+        <h1 class="mt-5 text-uppercase">2.Droppable</h1>
+        <div id="draggable" class="ui-widget-content">
+          <p>Drag me to my target</p>
+        </div>
+        <div id="droppable" class="ui-widget-header">
+          <p>Drop here</p>
+        </div>
+      </div>
+      <!-- three -->
+     <div class="col-4">
+        <h1 class="mt-5 text-uppercase">3.Resizable</h1>
+        <div id="resizable" class="ui-widget-content">
+          <h3 class="ui-widget-header">Resizable</h3>
+        </div>
+     </div>
+     <!-- four -->
+     <div class="col-6">
+       <h1 class="mt-5 mb-4 text-uppercase">4.Selectable</h1>
+       <ol id="selectable">
+        <li class="ui-widget-content">Item 1</li>
+        <li class="ui-widget-content">Item 2</li>
+        <li class="ui-widget-content">Item 3</li>
+        <li class="ui-widget-content">Item 4</li>
+        <li class="ui-widget-content">Item 5</li>
+        <li class="ui-widget-content">Item 6</li>
+        <li class="ui-widget-content">Item 7</li>
+      </ol>
+     </div>
+     <!-- five -->
+      <div class="col-6">
+        <h1 class="mt-5 mb-4 text-uppercase">5.Sortable</h1>
+        <ul id="sortable">
+          <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 1</li>
+          <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 2</li>
+          <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 3</li>
+          <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 4</li>
+          <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 5</li>
+          <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 6</li>
+          <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 7</li>
+        </ul>
+      </div>
+     
+      <!-- row end -->
+     </div>
+     <!-- 2nd row -->
+     <div class="row" id="Widgets">
+      <h1 class="mt-5 mb-4 text-uppercase text-center text-success">Widgets</h1>
+        <!-- six -->
+        <div class="col-4">
+          <h1 class="mt-5 mb-4 text-uppercase">6.Accordion</h1>
+          <div id="accordion">
+            <h3>Section 1</h3>
+            <div>
+              <p>
+              Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+              ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+              amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+              odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+              </p>
+            </div>
+            <h3>Section 2</h3>
+            <div>
+              <p>
+              Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+              purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+              velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+              suscipit faucibus urna.
+              </p>
+            </div>
+            <h3>Section 3</h3>
+            <div>
+              <p>
+              Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+              Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+              ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+              lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+              </p>
+              <ul>
+                <li>List item one</li>
+                <li>List item two</li>
+                <li>List item three</li>
+              </ul>
+            </div>
+            <h3>Section 4</h3>
+            <div>
+              <p>
+              Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+              et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+              faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+              mauris vel est.
+              </p>
+              <p>
+              Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+              Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+              inceptos himenaeos.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- seven -->
+        <div class="col-4">
+          <h1 class="mt-5 mb-4 text-uppercase">7.Checkboxradio</h1>
+          <div class="widget">
+            <h2>Radio Group</h2>
+            <fieldset>
+              <legend>Select a Location: </legend>
+              <label for="radio-1">New York</label>
+              <input type="radio" name="radio-1" id="radio-1">
+              <label for="radio-2">Paris</label>
+              <input type="radio" name="radio-1" id="radio-2">
+              <label for="radio-3">London</label>
+              <input type="radio" name="radio-1" id="radio-3">
+            </fieldset>
+          </div>
+        </div>
+        <!-- eight -->
+        <div class="col-4">
+          <h1 class="mt-5 mb-4 text-uppercase">8.Datepicker</h1>
+          <p>Date: <input type="text" id="datepick"></p>
+        </div>
+        <!-- nine -->
+        <div class="col-6">
+          <h1 class="mt-5 mb-4 text-uppercase">9.Selectmenu</h1>
+          <div class="demo">
+          <form action="#"> 
+            <fieldset>
+              <label for="speed">Select a speed</label>
+              <select name="speed" id="speed">
+                <option>Slower</option>
+                <option>Slow</option>
+                <option selected="selected">Medium</option>
+                <option>Fast</option>
+                <option>Faster</option>
+              </select>
+           
+              <label for="files">Select a file</label>
+              <select name="files" id="files">
+                <optgroup label="Scripts">
+                  <option value="jquery">jQuery.js</option>
+                  <option value="jqueryui">ui.jQuery.js</option>
+                </optgroup>
+                <optgroup label="Other files">
+                  <option value="somefile">Some unknown file</option>
+                  <option value="someotherfile">Some other file with a very long option text</option>
+                </optgroup>
+              </select>
+           
+              <label for="number">Select a number</label>
+              <select name="number" id="number">
+                <option>1</option>
+                <option selected="selected">2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+                <option>13</option>
+                <option>14</option>
+                <option>15</option>
+                <option>16</option>
+                <option>17</option>
+                <option>18</option>
+                <option>19</option>
+              </select>
+           
+              <label for="salutation">Select a title</label>
+              <select name="salutation" id="salutation">
+                <option disabled selected>Please pick one</option>
+                <option>Mr.</option>
+                <option>Mrs.</option>
+                <option>Dr.</option>
+                <option>Prof.</option>
+                <option>Other</option>
+              </select>
+            </fieldset>       
+          </form>
+          </div>
+        </div>
+        <!-- ten -->
+        <div class="col-6">
+          <h1 class="mt-5 mb-4 text-uppercase">10.Tooltip</h1>
+          <p><a href="#" title="That&apos;s what this widget is">Tooltips</a> can be attached to any element. When you hover the element with your mouse, the title attribute is displayed in a little box next to the element, just like a native tooltip.</p>
+          <p>But as it&apos;s not a native tooltip, it can be styled. Any themes built with
+          <a href="http://jqueryui.com/themeroller/" title="ThemeRoller: jQuery UI&apos;s theme builder application">ThemeRoller</a>
+          will also style tooltips accordingly.</p>
+          <p>Tooltips are also useful for form elements, to show some additional information in the context of each field.</p>
+          <p><label for="age">Your age:</label><input id="age" title="We ask for your age only for statistical purposes."></p>
+          <p>Hover the field to see the tooltip.</p>
+        </div>
+         
+         <!-- 3rd row -->
+         <div class="row" id="Effects">
+          <h1 class="mt-5 mb-4 text-uppercase text-center text-success">Effects</h1>
+          <div class="col-4">
+            <h1 class="mt-5 mb-4 text-uppercase">11.Add Class</h1>
+            <div class="toggler">
+              <div id="effect" class="ui-corner-all">Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede.
+              </div>
+            </div>
+            <button id="button" class="ui-state-default ui-corner-all">Run Effect</button>
+          </div>
+          <script>
+            $( function() {
+              $( "#button" ).on( "click", function() {
+                $( "#effect" ).addClass( "newClass", 1000, callback );
+              });
+           
+              function callback() {
+                setTimeout(function() {
+                  $( "#effect" ).removeClass( "newClass" );
+                }, 1500 );
+              }
+            } );
+            </script>
+          <!-- twelve -->
+          <div class="col-6">
+             <h1 class="mt-5 mb-4 text-uppercase">12.Color Animation</h1>
+           <div class="togler">
+            <div id="efect" class="ui-widget-content ui-corner-all">
+              <h3 class="ui-widget-header ui-corner-all">Animate</h3>
+              <p>
+                Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede. Nulla lorem metus, adipiscing ut, luctus sed, hendrerit vitae, mi.
+              </p>
+            </div>
+          </div>
+            <button id="buton" class="ui-state-default ui-corner-all">Toggle Effect</button>
+          </div>
+          <!-- fourteen -->
+          <div class="col-4">
+            <h1 class="mt-5 mb-4 text-uppercase">14.Toggle</h1>
+            <div class="toggler">
+  <div id="effect" class="ui-widget-content ui-corner-all">
+    <h3 class="ui-widget-header ui-corner-all">Toggle</h3>
+    <p>
+      Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede. Nulla lorem metus, adipiscing ut, luctus sed, hendrerit vitae, mi.
+    </p>
+  </div>
+</div>
+<button id="castombaton" class="ui-state-default ui-corner-all">Run Effect</button>
+
+          </div>
+          <!-- thirteen -->
+          <div class="col-8">
+            <h1 class="mt-5 mb-4 text-uppercase">13.Easing</h1>
+            <div id="graphs"></div>
+          </div>
+          <!-- end -->
+         </div>
+         
+        <!-- row end -->
+     </div>
+     <!-- 4th row -->
+     <div class="row" id="Utilities">
+      <h1 class="mt-5 mb-4 text-uppercase text-center text-success">Utilities</h1>
+      <!-- fifteen -->
+       <div class="col-10">
+         <h1 class="mt-5 mb-4 text-uppercase">15.Widget Factory</h1>
+         <div>
+  <div id="my-widget1">color me</div>
+  <div id="my-widget2">color me</div>
+  <div id="my-widget3">color me</div>
+  <button id="disable">Toggle disabled option</button>
+  <button id="green">Go green</button>
+</div>
+       </div>
+     </div>
+      
+      
+      
+      
+      <!-- end -->
+    </div>
+
+    
+    
+
+    <!----JS link----->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/popper.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+   <script src="js/script.js"></script>
+    
+  </body>
+</html>
+
